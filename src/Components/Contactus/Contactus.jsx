@@ -36,7 +36,7 @@ const Contactus = () => {
                         setShowSubjectError(false)
                     },
                     (error) => {
-                        console.log('FAILED...', error.text);
+                        console.log('FAILED....', error.text);
                     },
                 );
         } else {
