@@ -1,0 +1,85 @@
+#skill {
+    width: 90%;
+    max-width: 1100px;
+    margin: 1rem auto;
+    padding: 2rem 0 0 0;
+    color: #fff;
+}
+
+
+.skillHeadings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 0;
+}
+
+.skillHeadings h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.skillHeadings h5 {
+    font-size: .8rem;
+    font-weight: 500;
+    color: #f4eeee;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.skillComponentsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.2rem;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: rgb(39, 23, 48);
+    border: 1px solid #5557ec;
+    -webkit-box-shadow: 1px 1px 16px -4px rgba(68, 68, 221, 0.5);
+    -moz-box-shadow: 1px 1px 16px -4px rgba(68, 68, 221, 0.5);
+    box-shadow: 1px 1px 16px -4px rgba(68, 68, 221, 0.5);
+}
+
+.skillsContainer h2 {
+    font-size: 1.2rem;
+    padding: 1rem 0 0 0;
+}
+
+.skillsBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 1rem 1.2rem;
+}
+
+.SkillBoxChild {
+    padding: 6px 12px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #b4b0b0;
+    border-radius: 8px;
+}
+
+.SkillBoxChild img {
+    width: 1.1rem;
+    height: 1.1rem;
+    object-fit: contain;
+    object-position: center;
+}
+
+.SkillBoxChild span {
+    font-size: .8rem;
+    color: #b4b0b0;
+}

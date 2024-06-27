@@ -1,0 +1,84 @@
+nav {
+    background-color: rgb(39, 23, 48);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navContainer {
+    /* background-color: aqua; */
+    padding: 1rem 0;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navIcon a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navLinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navLinks ul li a {
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.navBtn {
+    color: #ffeeee;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 1rem; */
+}
+
+.navBtn a {
+    color: #a560e2;
+    font-size: .8rem;
+    border: 1px solid #a560e2;
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.navBtn #hamburger {
+    color: #a560e2;
+    font-weight: bold;
+    border: none;
+    padding: 0 0 0 1rem;
+    line-height: 2px;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav .navContainer .navLinks {
+        display: none;
+    }
+
+    .navBtn #hamburger {
+        display: flex;
+    }
+
+   
+
+}
+
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    .navLinks ul {
+        gap: 1rem;
+    }
+
+}

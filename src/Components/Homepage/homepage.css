@@ -1,0 +1,89 @@
+#Home {
+    width: 90%;
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding-top: 3rem;
+    color: aliceblue;
+}
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 3.5rem 0 0 0;
+}
+
+.homeContainer span {
+    color: #a560e2;
+    padding-left: .5rem;
+}
+
+.homeContainer h1 {
+    font-size: 3rem;
+    max-width: 80%;
+    margin: 0 auto;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.homeContainer h3 {
+    font-size: 1.2rem;
+    max-width: 80%;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.homeContainer p {
+    text-align: center;
+    font-size: .9rem;
+    max-width: 80%;
+    padding: 2rem 0;
+}
+
+.homeContainer .homeButtons {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.homeContainer a {
+    padding: 10px 2rem;
+    border-radius: 10px;
+    background-color: #a560e2;
+    color: #ffeeee;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    cursor: pointer;
+    border: 2px solid #9b45e6;
+    -webkit-box-shadow: 6px -5px 27px -15px #a560e2;
+    -moz-box-shadow: 6px -5px 27px -15px #a560e2;
+    box-shadow: 6px -5px 27px -15px #a560e2;
+
+}
+@media screen and (max-width:600px) {
+    .homeContainer h1 {
+        font-size: 2rem;
+        max-width: 80%;
+        margin: 0 auto;
+        font-weight: 600;
+        text-align: center;
+    
+    }
+    .homeContainer .homeButtons {
+        display: flex;
+        gap: 1rem;
+        padding: .4rem;
+    }
+    .homeContainer a {
+        padding: 10px 2rem;
+        background-color: #a560e2;
+        color: #ffeeee;
+        font-size: .6rem;
+    
+    }
+}
