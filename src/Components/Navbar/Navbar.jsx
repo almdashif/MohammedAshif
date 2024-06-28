@@ -9,14 +9,14 @@ import { FaGraduationCap } from "react-icons/fa6";
 import { RiMacFill } from "react-icons/ri";
 import { MdMilitaryTech } from "react-icons/md";
 import { IoPerson } from "react-icons/io5";
-impo
+
 const Navbar = () => {
     const [ShowNav, setShowNav] = useState(false)
     return (
         <nav>
             <div className="navContainer">
                 <div className="navIcon">
-                    <a href="#" download>Portfolio</a>
+                    <a href="#">Portfolio</a>
                 </div>
                 <div className="navLinks">
                     <ul>
@@ -28,7 +28,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navBtn">
-                    <a href="Resume.pdf" download>Portfolio</a>
+                    <a href="#">Resume</a>
                     <a href="" id='hamburger' onClick={(e) => { e.preventDefault(); setShowNav(true) }}><RxHamburgerMenu size={20} /></a>
                 </div>
                 {ShowNav ?
@@ -36,15 +36,15 @@ const Navbar = () => {
                     <div className="drawer">
                         <div className="navLinks">
                             <ul>
-                                <li><a href="#Home" onClick={(e) => { setShowNav(false) }}><IoPerson size={20} id='icon' /> About</a></li>
-                                <li><a href="#skill" onClick={(e) => { setShowNav(false) }}><MdMilitaryTech size={20} id='icon' /> Skills</a></li>
-                                <li><a href="#Experience" onClick={(e) => { setShowNav(false) }}><FaBriefcase size={20} id='icon' /> Experience</a></li>
-                                <li><a href="#Project" onClick={(e) => { setShowNav(false) }}><RiMacFill size={20} id='icon' /> Projects</a></li>
-                                <li><a href="#Education" onClick={(e) => { setShowNav(false) }}><FaGraduationCap size={20} id='icon' /> Education</a></li>
-                                <li><a href="#Contact" onClick={(e) => { setShowNav(false) }}><FaMailBulk size={20} id='icon' /> Contact Me</a></li>
+                                <li><a href="#Home" onClick={(e) => { setShowNav(false) }}><IoPerson size={20} id='icon'/> About</a></li>
+                                <li><a href="#skill" onClick={(e) => { setShowNav(false) }}><MdMilitaryTech size={20} id='icon'/> Skills</a></li>
+                                <li><a href="#Experience" onClick={(e) => { setShowNav(false) }}><FaBriefcase size={20} id='icon'/> Experience</a></li>
+                                <li><a href="#Project" onClick={(e) => { setShowNav(false) }}><RiMacFill size={20} id='icon'/> Projects</a></li>
+                                <li><a href="#Education" onClick={(e) => { setShowNav(false) }}><FaGraduationCap size={20} id='icon'/> Education</a></li>
+                                <li><a href="#Contact" onClick={(e) => {setShowNav(false) }}><FaMailBulk size={20} id='icon'/> Contact Me</a></li>
 
                             </ul>
-
+                            
                         </div>
                         <a href="" id='hamburger' onClick={(e) => { e.preventDefault(); setShowNav(false) }}><RxCross2 size={24} /></a>
                     </div>
