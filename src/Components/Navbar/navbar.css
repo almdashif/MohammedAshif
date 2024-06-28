@@ -8,7 +8,6 @@ nav {
 }
 
 .navContainer {
-    /* background-color: aqua; */
     padding: 1rem 0;
     width: 90%;
     max-width: 1100px;
@@ -18,24 +17,79 @@ nav {
     align-items: center;
 }
 
-.navIcon a {
+nav .navContainer .navIcon a {
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
 }
 
-.navLinks ul {
+nav .navContainer>.navLinks ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 }
 
-.navLinks ul li a {
+nav .navContainer .navLinks ul li a {
     color: #fff;
     font-size: .8rem;
     font-weight: 500;
 }
+
+nav .navContainer .drawer {
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Set a semi-transparent background color */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the backdrop */
+    color: #ffeeee;
+}
+
+nav .navContainer .drawer .navLinks {
+    display: flex;
+}
+
+nav .navContainer .drawer .navLinks ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+nav .navContainer .drawer #hamburger {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    color: #ffeeee;
+    font-weight: bold;
+}
+
+nav .navContainer .drawer .navLinks ul li {
+    color: #fff;
+    font-size: .8rem;
+    display: inline-block;
+    font-weight: 500;
+    width: 100%;
+    padding: 1.4rem;
+}
+
+nav .navContainer .drawer .navLinks ul li:active {
+    background-color: #a560e2;
+}
+
+nav .navContainer .drawer .navLinks ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
 
 .navBtn {
     color: #ffeeee;
@@ -68,11 +122,11 @@ nav {
         display: none;
     }
 
-    .navBtn #hamburger {
+    nav .navContainer .navBtn #hamburger {
         display: flex;
     }
 
-   
+
 
 }
 
