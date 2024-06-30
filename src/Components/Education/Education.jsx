@@ -25,11 +25,11 @@ const Education = () => {
                             </div>
 
                         </div>
-                        <div className="EducationTechStacks">
+                        {/* <div className="EducationTechStacks">
                             <strong>Grade:</strong>
                             <span>8.71 CGPA</span>
-                        </div>
-                        <p>Working on the frontend of the web application using ReactJS, Redux, and TailwindCSS</p>
+                        </div> */}
+                        <p>I am currently pursuing my Master of Computer Application (MCA) degree at Bharathiyar University, Coimbatore, through online mode. This program is designed to deepen my understanding of advanced concepts in computer science and enhance my skills in software development, systems analysis, and computer applications.Throughout this online MCA program, I am engaged in a comprehensive curriculum that covers a wide range of subjects including programming languages, database management systems, web technologies, software engineering, and more.</p>
 
                     </div>
 
@@ -49,7 +49,7 @@ const Education = () => {
                             <strong>Grade:</strong>
                             <span>8.71 CGPA</span>
                         </div>
-                        <p>Working on the frontend of the web application using ReactJS, Redux, and TailwindCSS</p>
+                        <p>I pursued my Bachelor of Computer Science (BSc) at Bishop Appasamy College in Coimbatore, where I graduated with distinction, achieving an impressive CGPA of 8.71. This three-year journey was enriching, providing me with comprehensive knowledge and practical skills in the field of computer science. It underscores my commitment to continuous learning and personal growth in the field of computer science.My experience at Bishop Appasamy College has equipped me with a solid foundation in computer science, preparing me to pursue a successful career in the technology sector. </p>
 
                     </div>
 
@@ -69,7 +69,7 @@ const Education = () => {
                             <strong>Grade:</strong>
                             <span>61%</span>
                         </div>
-                        <p>Working on the frontend of the web application using ReactJS, Redux, and TailwindCSS</p>
+                        <p>At NS Matriculation Hr Sec School in Coimbatore, I successfully completed my Higher Secondary Certificate (HSC) with a commendable achievement of 61%. This period was instrumental in shaping my academic journey and preparing me for future challenges.This experience enhanced my analytical thinking, problem-solving abilities, and overall academic resilience.It provided a solid academic foundation upon which I continue to build my career aspirations and personal growth.</p>
 
                     </div>
 
@@ -89,7 +89,7 @@ const Education = () => {
                             <strong>Grade:</strong>
                             <span>93%</span>
                         </div>
-                        <p>Working on the frontend of the web application using ReactJS, Redux, and TailwindCSS</p>
+                        <p>During my time at NS Matriculation Hr Sec School in Coimbatore, I achieved outstanding academic success, graduating with a remarkable 93% in the SSLC (Secondary School Leaving Certificate) examinations. This accomplishment reflects my dedication to academic excellence and my ability to consistently perform at a high level across various subjects. It has laid a solid foundation for my future educational pursuits and career aspirations, instilling in me the confidence to tackle challenges and strive for continuous improvement.</p>
 
                     </div>
                 </div>
