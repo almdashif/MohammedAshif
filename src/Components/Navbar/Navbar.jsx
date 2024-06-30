@@ -29,7 +29,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navBtn">
-                    <a href={resume} download='MohammedAshifAL_ReactNative&ReactJS_2+yrs_Resume'>Resume</a>
+                    <a href={resume} download='MohammedAshifAL_ReactNative&ReactJS_2+yrs_Resume'   rel="noopener noreferrer">Resume</a>
                     <a href="" id='hamburger' onClick={(e) => { e.preventDefault(); setShowNav(true) }}><RxHamburgerMenu size={20} /></a>
                 </div>
                 {ShowNav ?

@@ -2,6 +2,7 @@ import React from 'react'
 import './experience.css'
 import logo from '../../assets/nanosoftlogo.png'
 import zeonerlogo from '../../assets/zeonerlogo.png'
+import DigimindsLogo from '../../assets/DigimindsLogo.png'
 const Experience = () => {
     return (
         <section id='Experience'>
@@ -16,7 +17,7 @@ const Experience = () => {
                     <div className="experienceBox experience-left">
                         <div className="experienceBoxHeading">
                             <div className="companyImage">
-                                <img src={logo} alt="experienceLogo" />
+                                <img src={logo} alt="Nanosoft logo" />
                             </div>
                             <div className="titles">
                                 <h4>Frontend Developer (Mobile & Web)</h4>
@@ -43,8 +44,8 @@ const Experience = () => {
                     </div>
                     <div className="experienceBox experience-right">
                         <div className="experienceBoxHeading">
-                            <div className="companyImage">
-                                <img src={logo} alt="experienceLogo" />
+                            <div className="companyImage" >
+                                <img src={DigimindsLogo} alt="DigimindsLogo" />
                             </div>
                             <div className="titles">
                                 <h4>Web Developer & Digital Marketing</h4>
@@ -72,7 +73,7 @@ const Experience = () => {
                     <div className="experienceBox experience-left">
                         <div className="experienceBoxHeading">
                             <div className="companyImage">
-                                <img src={zeonerlogo} alt="experienceLogo" />
+                                <img src={zeonerlogo} alt="zeonerlogo" />
                             </div>
                             <div className="titles">
                                 <h4>Frontend Developer</h4>
