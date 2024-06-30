@@ -25,6 +25,7 @@ const Navbar = () => {
                         <li><a href="#Experience">Experience</a></li>
                         <li><a href="#Project">Projects</a></li>
                         <li><a href="#Education">Education</a></li>
+                        <li><a href="#Education">Contact</a></li>
                     </ul>
                 </div>
                 <div className="navBtn">

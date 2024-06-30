@@ -117,7 +117,7 @@ nav .navContainer .drawer .navLinks ul li a {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     nav .navContainer .navLinks {
         display: none;
     }
