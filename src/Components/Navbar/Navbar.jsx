@@ -9,7 +9,7 @@ import { FaGraduationCap } from "react-icons/fa6";
 import { RiMacFill } from "react-icons/ri";
 import { MdMilitaryTech } from "react-icons/md";
 import { IoPerson } from "react-icons/io5";
-import resume from '../../assets/resume.pdf'
+import resume from '../../assets/Resume.pdf'
 const Navbar = () => {
     const [ShowNav, setShowNav] = useState(false)
     return (

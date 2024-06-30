@@ -1,6 +1,6 @@
 import React from 'react'
 import './homepage.css'
-import resume from '../../assets/resume.pdf'
+import resume from '../../assets/Resume.pdf'
 const Homepage = () => {
     return (
         <section id='Home'>
