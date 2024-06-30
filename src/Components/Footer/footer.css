@@ -30,9 +30,15 @@ footer {
     font-size: .9rem;
     cursor: pointer;
     font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.footerContainer ul li a:hover {
+    color: #a560e2;
+    font-size: .9rem;
+    cursor: pointer;
+    font-weight: 600;
     /* letter-spacing: 1px; */
 }
-
 .footerContainer .footerIcons {
     color: #ffeeee;
     font-size: 1rem;

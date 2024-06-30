@@ -42,11 +42,18 @@
     border-radius: 10px;
     background-color: rgb(39, 23, 48);
     border: 1px solid #5557ec;
+    transition: all .3s ease-in-out;
     -webkit-box-shadow: 1px 1px 16px -4px rgba(68, 68, 221, 0.5);
     -moz-box-shadow: 1px 1px 16px -4px rgba(68, 68, 221, 0.5);
     box-shadow: 1px 1px 16px -4px rgba(68, 68, 221, 0.5);
 }
+.skillsContainer:hover{
+    transform: scale(1.1); 
+    -webkit-box-shadow: 2px 0px 17px 5px rgba(68,68,221,0.72);
+    -moz-box-shadow: 2px 0px 17px 5px rgba(68,68,221,0.72);
+    box-shadow: 2px 0px 17px 5px rgba(68,68,221,0.72);
 
+}
 .skillsContainer h2 {
     font-size: 1.2rem;
     padding: 1rem 0 0 0;

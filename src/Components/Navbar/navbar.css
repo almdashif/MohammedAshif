@@ -21,6 +21,10 @@ nav .navContainer .navIcon a {
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+nav .navContainer .navIcon a:hover {
+    color: #a560e2;
 }
 
 nav .navContainer>.navLinks ul {
@@ -34,6 +38,10 @@ nav .navContainer .navLinks ul li a {
     color: #fff;
     font-size: .8rem;
     font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+nav .navContainer .navLinks ul li a:hover {
+    color: #e8a2f4;
 }
 
 nav .navContainer .drawer {
@@ -106,6 +114,11 @@ nav .navContainer .drawer .navLinks ul li a {
     padding: .3rem 1rem;
     border-radius: 1rem;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.navBtn a:hover {
+    background-color: #a560e2;
+    color: #ffeeee;
 }
 
 .navBtn #hamburger {

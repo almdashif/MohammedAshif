@@ -50,7 +50,7 @@
     padding: 1rem;
 }
 
-.homeContainer a {
+.homeContainer .homeButtons a {
     padding: 10px 2rem;
     border-radius: 10px;
     background-color: #a560e2;
@@ -59,10 +59,20 @@
     font-weight: 500;
     letter-spacing: .5px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
     border: 2px solid #9b45e6;
     -webkit-box-shadow: 6px -5px 27px -15px #a560e2;
     -moz-box-shadow: 6px -5px 27px -15px #a560e2;
     box-shadow: 6px -5px 27px -15px #a560e2;
+
+}
+.homeContainer .homeButtons a:hover {
+    color: #a560e2;
+    background-color: #ffeefe;
+    border: 2px solid #ffeeee;
+    -webkit-box-shadow: 6px -5px 27px -15px #ffeeee;
+    -moz-box-shadow: 6px -5px 27px -15px #ffeeee;
+    box-shadow: 6px -5px 27px -15px #ffeeee;
 
 }
 @media screen and (max-width:600px) {

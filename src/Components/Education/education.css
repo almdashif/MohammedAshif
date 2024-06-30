@@ -33,7 +33,7 @@
     flex-direction: column;
     gap: 1rem;
     padding-left: 1rem;
-    border-left:2px solid #5557ec;
+    border-left: 2px solid #5557ec;
 }
 
 .EducationContainer .EducationBox {
@@ -45,7 +45,15 @@
     -moz-box-shadow: 1px 1px 16px -4px rgba(68, 68, 221, 0.5);
     box-shadow: 1px 1px 16px -4px rgba(68, 68, 221, 0.5);
 }
-.EducationContainer .EducationBox::after{
+
+.EducationContainer .EducationBox:hover {
+    transform: scale(1.001);
+    -webkit-box-shadow: 2px 0px 17px 5px rgba(68, 68, 221, 0.72);
+    -moz-box-shadow: 2px 0px 17px 5px rgba(68, 68, 221, 0.72);
+    box-shadow: 2px 0px 17px 5px rgba(68, 68, 221, 0.72);
+}
+
+.EducationContainer .EducationBox::after {
     content: "";
     position: absolute;
     top: -1px;
@@ -128,12 +136,14 @@
     color: #eeeeee;
     font-weight: 600;
 }
+
 .EducationTechStacks span {
     font-size: .7rem;
     color: #eeeeee;
     font-weight: 500;
 }
-.EducationParent{
+
+.EducationParent {
     display: flex;
     justify-content: center;
     align-items: flex-start;

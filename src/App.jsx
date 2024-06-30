@@ -7,7 +7,6 @@ import Education from './Components/Education/Education'
 import Contactus from './Components/Contactus/Contactus'
 import Footer from './Components/Footer/Footer'
 import Homepage from './Components/Homepage/Homepage'
-import Timeline from './Components/Timeline/Timeline'
 
 const App = () => {
   return (
@@ -20,7 +19,6 @@ const App = () => {
       <Education />
       <Contactus />
       <Footer />
-      <Timeline />
     </div>
   )
 }
