@@ -128,6 +128,7 @@ nav .navContainer .drawer .navLinks ul li a {
 
 
 
+
 }
 
 @media only screen and (min-width: 600px) and (max-width:768px) {
@@ -135,4 +136,12 @@ nav .navContainer .drawer .navLinks ul li a {
         gap: 1rem;
     }
 
+
+}
+@media only screen and (max-width: 600px) {
+    nav .navContainer .drawer {
+        width: 100%;
+    
+    }
+    
 }

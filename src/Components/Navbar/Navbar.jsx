@@ -9,7 +9,7 @@ import { FaGraduationCap } from "react-icons/fa6";
 import { RiMacFill } from "react-icons/ri";
 import { MdMilitaryTech } from "react-icons/md";
 import { IoPerson } from "react-icons/io5";
-
+import resume from '../../assets/resume.pdf'
 const Navbar = () => {
     const [ShowNav, setShowNav] = useState(false)
     return (
@@ -29,7 +29,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navBtn">
-                    <a href="#">Resume</a>
+                    <a href={resume} download='MohammedAshifAL_ReactNative&ReactJS_2+yrs_Resume'>Resume</a>
                     <a href="" id='hamburger' onClick={(e) => { e.preventDefault(); setShowNav(true) }}><RxHamburgerMenu size={20} /></a>
                 </div>
                 {ShowNav ?
