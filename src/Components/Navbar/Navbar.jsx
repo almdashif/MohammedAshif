@@ -16,7 +16,7 @@ const Navbar = () => {
         <nav>
             <div className="navContainer">
                 <div className="navIcon">
-                    <a href="#">Portfolio</a>
+                    <a href="#">Mohammed Ashif</a>
                 </div>
                 <div className="navLinks">
                     <ul>
