@@ -1,6 +1,5 @@
 import React from 'react'
 import './homepage.css'
-import resume from '../../assets/resume.pdf'
 const Homepage = () => {
     return (
         <section id='Home'>
@@ -10,7 +9,7 @@ const Homepage = () => {
                 <h3>I'm a <span>Web Developer</span></h3>
                 <p>I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
                 <div className="homeButtons">
-                    <a  href={resume} download='MohammedAshifAL_ReactNative&ReactJS_2+yrs_Resume'>Check Resume</a>
+                    <a  href='https://github.com/almdashif' target='__blank' >Github Profile</a>
                     <a href='#Contact'>Get In Touch</a>
                 </div>
 
