@@ -1,7 +1,7 @@
 import React from 'react'
 import './project.css'
-import logo from '../../assets/nanosoftlogo.png'
-import zeonerlogo from '../../assets/zeonerlogo.png'
+import SmartfmReachV5 from '../../assets/SmartfmReachV5.jpeg'
+
 const Project = () => {
     return (
         <section id='Project'>
@@ -13,23 +13,32 @@ const Project = () => {
             <div className="ProjectContainer">
                 <div className="ProjectBox">
                     <div className="projectBannerImg">
-                        <img src="https://cdn.dribbble.com/userupload/14605196/file/original-d44cea1dbc4ebe4f99ae59e21ddf5d58.png?resize=1024x768" alt="" />
+                        <img src={SmartfmReachV5} alt="Smart FMmReachV5" />
                     </div>
 
                     <div className="techStackUsed">
                         <ul>
-                            <li>Docker</li>
                             <li>React Native</li>
-                            <li>NodeJs</li>
-                            <li>Express JS</li>
-                            <li>Netlify</li>
                             <li>CSS3</li>
+                            <li>Axios</li>
+                            <li>Context API</li>
+                            <li>Javascript</li>
+                            <li>Push Notification</li>
+                            <li>Firebase</li>
+                            <li>Git</li>
                         </ul>
                     </div>
                     <div className="projectDetails">
-                        <h5>Trackify</h5>
+                        <h5>SmartFM Reach V5 - Facility Management Application</h5>
                         <span>Jun 2023 - Jul 2023</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error illum quisquam ex hic repellendus libero similique corrupti in animi fugiat. Numquam animi nulla illum sapiente laborum ipsam molestias culpa perferendis.</p>
+                        <p>
+                        • Leveraged a component-based architecture to create a robust and extensible user interface.<br />
+                        • Implemented Redux for efficient state management, ensuring seamless data flow and consistency across the entire application.<br />
+                        • Employed Webpack to bundle and optimize the application for production, resulting in faster load times and improved performance.<br />
+                        • Implemented push notifications using Firebase Cloud Messaging (FCM).<br />
+                        • Actively kept up-to-date with industry trends and best practices in React JS, Node JS, and SQL.<br />
+                        • Collaborated closely with cross-functional teams, including designers and product managers, to deliver high-quality software products.<br />
+                        </p>
                     </div>
 
                 </div>
