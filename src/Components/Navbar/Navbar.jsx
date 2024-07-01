@@ -29,25 +29,29 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navBtn">
-                    <a href={resume} download='MohammedAshifAL_ReactNative&ReactJS_2+yrs_Resume'   rel="noopener noreferrer">Resume</a>
+                    <a href={resume} download='MohammedAshifAL_ReactNative&ReactJS_2+yrs_Resume' rel="noopener noreferrer">Resume</a>
                     <a href="" id='hamburger' onClick={(e) => { e.preventDefault(); setShowNav(true) }}><RxHamburgerMenu size={20} /></a>
                 </div>
                 {ShowNav ?
+                    <div className="drawerParent">
+                        <div className="drawer">
+                            <div className="navLinks">
+                                <ul>
+                                    <li><a href="#Home" onClick={(e) => { setShowNav(false) }}><IoPerson size={20} id='icon' /> About</a></li>
+                                    <li><a href="#skill" onClick={(e) => { setShowNav(false) }}><MdMilitaryTech size={20} id='icon' /> Skills</a></li>
+                                    <li><a href="#Experience" onClick={(e) => { setShowNav(false) }}><FaBriefcase size={20} id='icon' /> Experience</a></li>
+                                    <li><a href="#Project" onClick={(e) => { setShowNav(false) }}><RiMacFill size={20} id='icon' /> Projects</a></li>
+                                    <li><a href="#Education" onClick={(e) => { setShowNav(false) }}><FaGraduationCap size={20} id='icon' /> Education</a></li>
+                                    <li><a href="#Contact" onClick={(e) => { setShowNav(false) }}><FaMailBulk size={20} id='icon' /> Contact Me</a></li>
 
-                    <div className="drawer">
-                        <div className="navLinks">
-                            <ul>
-                                <li><a href="#Home" onClick={(e) => { setShowNav(false) }}><IoPerson size={20} id='icon'/> About</a></li>
-                                <li><a href="#skill" onClick={(e) => { setShowNav(false) }}><MdMilitaryTech size={20} id='icon'/> Skills</a></li>
-                                <li><a href="#Experience" onClick={(e) => { setShowNav(false) }}><FaBriefcase size={20} id='icon'/> Experience</a></li>
-                                <li><a href="#Project" onClick={(e) => { setShowNav(false) }}><RiMacFill size={20} id='icon'/> Projects</a></li>
-                                <li><a href="#Education" onClick={(e) => { setShowNav(false) }}><FaGraduationCap size={20} id='icon'/> Education</a></li>
-                                <li><a href="#Contact" onClick={(e) => {setShowNav(false) }}><FaMailBulk size={20} id='icon'/> Contact Me</a></li>
+                                </ul>
 
-                            </ul>
+                            </div>
+                            <a href="" id='hamburger' onClick={(e) => { e.preventDefault(); setShowNav(false) }}><RxCross2 size={24} /></a>
+                        </div>
+                        <div className="backpress" onClick={(e) => {  setShowNav(false) }}>
                             
                         </div>
-                        <a href="" id='hamburger' onClick={(e) => { e.preventDefault(); setShowNav(false) }}><RxCross2 size={24} /></a>
                     </div>
                     :
                     null

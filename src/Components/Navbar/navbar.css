@@ -50,9 +50,10 @@ nav .navContainer .drawer {
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 999;
     background: rgba(0, 0, 0, 0.5);
     /* Set a semi-transparent background color */
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     /* Apply a blur effect to the backdrop */
     color: #ffeeee;
 }
@@ -83,6 +84,14 @@ nav .navContainer .drawer .navLinks ul li {
     font-weight: 500;
     width: 100%;
     padding: 1.4rem;
+}
+.backpress{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
 }
 
 nav .navContainer .drawer .navLinks ul li:active {
