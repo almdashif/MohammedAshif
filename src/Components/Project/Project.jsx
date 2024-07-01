@@ -11,9 +11,11 @@ const Project = () => {
             </div>
 
             <div className="ProjectContainer">
-                <div className="ProjectBox">
+                <div className="ProjectBox" >
                     <div className="projectBannerImg">
+                        <a href="https://play.google.com/store/apps/details?id=com.nano.smartfm.reachv5" target='__blank'>
                         <img src={SmartfmReachV5} alt="Smart FMmReachV5" />
+                        </a>
                     </div>
 
                     <div className="techStackUsed">
